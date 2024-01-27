@@ -40,15 +40,16 @@ button:focus{
 }
 
 .navbar-links{
-    text-align: right;
-    color: #4A6E82;
+    width: fit-content;
+    text-align: center;
+    color: #4a6e82;
     font-weight: 600;
     font-size: 12px;
     line-height: 28px;
-    padding-left: 50px;
     padding-top: 10px;
-    padding-bottom: 10px!important;
-    border-top: #F1F4F7 solid 2px;
+    padding-bottom: 10px !important;
+    border-top: #f1f4f7 solid 2px;
+    margin-left: auto;
 }
 
 .navbar-links:hover{
@@ -79,6 +80,9 @@ button:focus{
     }
     
    .navbar-links{
+        width: fit-content;
+        text-align: center;
+        margin-left: auto;
         color: #4A6E82;
         font-weight: 600;
         font-size: 18px;

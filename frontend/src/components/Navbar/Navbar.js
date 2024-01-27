@@ -9,7 +9,7 @@ function NavBar() {
         <Navbar className="nav-main" bg="light" expand="lg">
             <Link to="/">
                 <div className="logoCol">
-                    <img id="logo" src={logo} height="35" width="35"></img>
+                    <img id="logo" src={logo} alt='logo' height="35" width="35"></img>
                 </div>
             </Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
